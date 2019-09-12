@@ -22,7 +22,7 @@ class StoragePermissionHelper(private val activity: Activity) : PermissionHelper
 		}
 	}
 
-	override fun verifyStoragePermissions() {
+	override fun verifyPermissions() {
 		// Check if we have write permission
 		val permission = ActivityCompat.checkSelfPermission(activity,
 				Manifest.permission.WRITE_EXTERNAL_STORAGE)

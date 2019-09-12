@@ -1,6 +1,6 @@
 package com.prongbang.signcapture.utils
 
 interface PermissionHelper {
-	fun verifyStoragePermissions()
+	fun verifyPermissions()
 	fun onRequestPermissionsResult(requestCode: Int, grantResults: IntArray)
 }

@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
-		storagePermissionHelper.verifyStoragePermissions()
+		storagePermissionHelper.verifyPermissions()
 		setContentView(R.layout.activity_main)
 
 		// disable both buttons at start
